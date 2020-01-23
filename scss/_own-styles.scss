@@ -1,0 +1,30 @@
+// OWN Styles.....
+
+body {
+  background-color: #191919;
+  color: white;
+}
+
+.quote {
+  color: #666666;
+  padding: 2 * $tussenruimte $tussenruimte * 3;
+  font-style: italic;
+  line-height: 1.4rem;
+}
+
+.slider {
+  min-height: 350px;
+  background-image: url("https://source.unsplash.com/700x350/?girl");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+
+  .caption {
+    background-color: $doorzichtigzwart;
+    color: white;
+    padding: $tussenruimte;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
